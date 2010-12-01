@@ -156,14 +156,14 @@ function loadPopup()
 	//loads popup only if it is disabled
 	if(popupStatus==0)
 	{
-		$("#backgroundPopup").css({"opacity": "0.7"});
+		$('#backgroundPopup').css({'opacity': '0.7'});
 		// Now let's make sure we actually see the image
 		var scroll = $(window).scrollTop();
-		$("#popupPM").animate({marginTop: scroll}, 'fast', function() {
+		$('#popupPM').animate({marginTop: scroll}, 'fast', function() {
 			// Animation complete.
 			});
-		$("#backgroundPopup").fadeIn("slow");
-		$("#popupPM").fadeIn("slow");
+		$('#backgroundPopup').fadeIn('slow');
+		$('#popupPM').fadeIn('slow');
 		popupStatus = 1;
 		openPopup = 'PM';
 	}
@@ -175,8 +175,8 @@ function disablePopup()
 	//disables popup only if it is enabled
 	if(popupStatus==1 && openPopup == 'PM')
 	{
-		$("#backgroundPopup").fadeOut("slow");
-		$("#popupPM").fadeOut("slow");
+		$('#backgroundPopup').fadeOut('slow');
+		$('#popupPM').fadeOut('slow');
 		popupStatus = 0;
 		openPopup = '';
 	}
@@ -188,16 +188,16 @@ function centerPopup()
 	//request data for centering
 	var windowWidth = document.documentElement.clientWidth;
 	var windowHeight = document.documentElement.clientHeight;
-	var popupHeight = $("#popupPM").height();
-	var popupWidth = $("#popupPM").width();
+	var popupHeight = $('#popupPM').height();
+	var popupWidth = $('#popupPM').width();
 	//centering
-	$("#popupPM").css({
-	"position": "absolute",
-	"top": windowHeight/2-popupHeight/2,
-	"left": windowWidth/2-popupWidth/2
+	$('#popupPM').css({
+	'position': 'absolute',
+	'top': windowHeight/2-popupHeight/2,
+	'left': windowWidth/2-popupWidth/2
 	});
 	//only need force for IE6
-	$("#backgroundPopup").css({"height": windowHeight});
+	$('#backgroundPopup').css({'height': windowHeight});
 }
 
 $(document).ready(function(){
@@ -214,11 +214,11 @@ $(document).ready(function(){
 
 	//CLOSING POPUP
 	//Click the x event!
-	$("#popupPMClose").click(function(){
+	$('#popupPMClose').click(function(){
 		disablePopup();
 	});
 	//Click out event!
-	$("#backgroundPopup").click(function(){
+	$('#backgroundPopup').click(function(){
 		disablePopup();
 		disableImage();
 	});
@@ -248,17 +248,17 @@ $(document).ready(function(){
 	
 	// Closing Image popup
 	//Click the x event!
-	$("#popupImageClose").click(function(){
+	$('#popupImageClose').click(function(){
 		disableImage();
 	});
 	
 	//Click image box event
-	$("#popupImage").click(function(){
+	$('#popupImage').click(function(){
 		disableImage();
 	});
 	
 	//Click image event
-	$("#ImagePopup img").click(function(){
+	$('#ImagePopup img').click(function(){
 		disableImage();
 	});
 
@@ -310,21 +310,21 @@ function image_load(src, alt)
 	//loads popup only if it is disabled
 	if(popupStatus==0)
 	{
-		$("#ImagePopup").html('<img id="imgpopup" src="' + src + '" alt="' + alt + '" />');
+		$('#ImagePopup').html('<img id="imgpopup" src="' + src + '" alt="' + alt + '" />');
 		var windowWidth = document.documentElement.clientWidth;
 		var windowHeight = document.documentElement.clientHeight;
 		var maxWidth = windowWidth * 0.85;
 		var maxHeight = windowHeight * 0.85;
-		$("#popupImage img").css("max-width", maxWidth);
-		$("#popupImage img").css("max-height", maxHeight);
-		$("#backgroundPopup").css({"opacity": "0.7"});
+		$('#popupImage img').css('max-width', maxWidth);
+		$('#popupImage img').css('max-height', maxHeight);
+		$('#backgroundPopup').css({'opacity': '0.7'});
 		// Now let's make sure we actually see the image
 		var scroll = $(window).scrollTop();
-		$("#popupImage").animate({marginTop: scroll}, 'fast', function() {
+		$('#popupImage').animate({marginTop: scroll}, 'fast', function() {
 			// Animation complete.
 			});
-		$("#backgroundPopup").fadeIn("slow");
-		$("#popupImage").fadeIn("slow");
+		$('#backgroundPopup').fadeIn('slow');
+		$('#popupImage').fadeIn('slow');
 		popupStatus = 1;
 		openPopup = 'Image';
 	}
@@ -336,19 +336,19 @@ function centerImage()
 	//request data for centering
 	var windowWidth = document.documentElement.clientWidth;
 	var windowHeight = document.documentElement.clientHeight;
-	var popupHeight = $("#popupImage").height();
-	var popupWidth = $("#popupImage").width();
+	var popupHeight = $('#popupImage').height();
+	var popupWidth = $('#popupImage').width();
 	var newTop = windowHeight/2-popupHeight/2;
 	var newLeft = windowWidth/2-popupWidth/2;
 	//centering
-	$("#popupImage").css({
-	"position": "absolute",
-	"top": newTop,
-	"left": newLeft
+	$('#popupImage').css({
+	'position': 'absolute',
+	'top': newTop,
+	'left': newLeft
 	});
 	
 	//only need force for IE6
-	$("#backgroundPopup").css({"height": windowHeight});
+	$('#backgroundPopup').css({'height': windowHeight});
 }
 
 //disabling popup with jQuery magic!
@@ -357,8 +357,8 @@ function disableImage()
 	//disables popup only if it is enabled
 	if(popupStatus==1 && openPopup == 'Image')
 	{
-		$("#backgroundPopup").fadeOut("slow");
-		$("#popupImage").fadeOut("slow");
+		$('#backgroundPopup').fadeOut('slow');
+		$('#popupImage').fadeOut('slow');
 		popupStatus = 0;
 		openPopup = '';
 	}
