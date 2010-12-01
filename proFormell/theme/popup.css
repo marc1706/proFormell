@@ -1,63 +1,62 @@
-/** 
-* based on http://yensdesign.com/2008/09/how-to-create-a-stunning-and-smooth-popup-using-jquery/ 
+/**
+* based on http://yensdesign.com/2008/09/how-to-create-a-stunning-and-smooth-popup-using-jquery/
 * modified by Marc Alexander 2010
 */
 
-#backgroundPopup {  
-	display:none;  
-	position:fixed;  
-	height:100%;  
-	width:100%;  
-	top:0;  
-	left:0;  
-	background:#000000;  
-	border:1px solid #cecece;  
-	
-}  
-
-#popupPM {  
-	display:none;  
-	position:fixed;   
-	height:384px;  
-	width:408px;  
-	background:#FFFFFF;  
-	border:2px solid #cecece;  
-	z-index:2;  
-	padding:12px;  
-	font-size:13px;  
-}  
-
-#popupPMClose {  
-	font-size:14px;  
-	line-height:14px;  
-	right:6px;  
-	top:4px;  
-	position:absolute;  
-	color:#6fa5fd;  
-	font-weight:700;  
-	display:block;  
+#backgroundPopup {
+	display:none;
+	position:fixed;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
 }
 
-#popupImage{  
-	display:none;  
-	position:fixed;  
-	height:auto;  
-	max-width:80%;  
-	background:#FFFFFF;  
-	border:2px solid #cecece;  
-	z-index:2;  
-	padding:12px;  
-	font-size:13px;  
-}   
+#popupPM {
+	display:none;
+	position:fixed;
+	height:384px;
+	width:408px;
+	background:#FFFFFF;
+	border:2px solid #cecece;
+	z-index:2;
+	padding:12px;
+	font-size:13px;
+}
 
-#popupImageClose {  
-	font-size:14px;  
-	line-height:14px;  
-	right:6px;  
-	top:4px;  
-	position:relative;  
-	color:#6B6B6B;  
-	font-weight:700;  
+#popupPMClose {
+	font-size:14px;
+	line-height:14px;
+	right:6px;
+	top:4px;
+	position:absolute;
+	color:#6fa5fd;
+	font-weight:700;
+	display:block;
+}
+
+#popupImage{
+	display:none;
+	position:fixed;
+	height:auto;
+	max-width:80%;
+	background:#FFFFFF;
+	border:2px solid #cecece;
+	z-index:2;
+	padding:12px;
+	font-size:13px;
+}
+
+#popupImageClose {
+	font-size:14px;
+	line-height:14px;
+	right:6px;
+	top:4px;
+	position:relative;
+	color:#6B6B6B;
+	font-weight:700;
 	display:block;
 	text-align: right;
 }
