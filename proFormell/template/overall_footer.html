@@ -29,7 +29,7 @@
 
 	The phpBB Group : 2006
 //-->
-	<div class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group<br />and by <a href="http://www.m-a-styles.de">Marc Alexander</a> &copy; 2007 - 2010
+	<div class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group<br />Style by <a href="http://www.m-a-styles.de">Marc Alexander</a> &copy; 2007 - 2010
 		<!-- IF TRANSLATION_INFO --><br />{TRANSLATION_INFO}<!-- ENDIF -->
 		<!-- IF DEBUG_OUTPUT --><br />{DEBUG_OUTPUT}<!-- ENDIF -->
 		<!-- IF U_ACP --><br /><strong><a href="{U_ACP}">{L_ACP}</a></strong><!-- ENDIF -->
@@ -52,6 +52,7 @@
 </div>
 <!-- JQuery Pop Up -->
 <!-- PM Popup -->
+<!-- IF S_USER_PM_POPUP -->	
 <div id="popupPM">  
 	<a id="popupPMClose">x</a> 
 	<table class="tablebg">
@@ -64,7 +65,8 @@
 		<!-- IF S_NOT_LOGGED_IN -->{L_LOGIN_CHECK_PM}<!-- ELSE -->{L_YOU_NEW_PM}<br /><br /><a class="postlink" href="{U_PRIVATEMSGS}">{L_PROFILE}</a><!-- ENDIF -->
 	</p>  
 </div>
-<!-- PM Popup -->
+<!-- ENDIF -->
+<!-- PM Popup end -->
 <!-- Image Popup -->
 <div id="popupImage">
 	<p id="ImagePopup"></p>

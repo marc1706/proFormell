@@ -47,6 +47,7 @@
 	var style_cookie_settings = '{A_COOKIE_SETTINGS}';
 	var onload_functions = new Array();
 	var onunload_functions = new Array();
+	var is_ie6 = false;
 
 	/**
 	* Find a member
@@ -78,66 +79,25 @@
 
 // ]]>
 </script>
+<!--[if lt IE 7]>
+<script type="text/javascript">
+// <![CDATA[
+var is_ie6 = true;
+// ]]>
+</script>
+<![endif]-->
 
+<!-- IF U_PRINT_TOPIC -->
 <link href="{T_THEME_PATH}/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
+<!-- ENDIF -->
 <link href="{T_STYLESHEET_LINK}" rel="stylesheet" type="text/css" media="screen, projection" />
-<link href="{T_THEME_PATH}/normal.css" rel="stylesheet" type="text/css" title="A" />
-<link href="{T_THEME_PATH}/medium.css" rel="alternate stylesheet" type="text/css" title="A+" />
-<link href="{T_THEME_PATH}/large.css" rel="alternate stylesheet" type="text/css" title="A++" />
 
 <!-- IF S_CONTENT_DIRECTION eq 'rtl' -->
 	<link href="{T_THEME_PATH}/bidi.css" rel="stylesheet" type="text/css" media="screen, projection" />
 <!-- ENDIF -->
 
-<script type="text/javascript" src="{T_TEMPLATE_PATH}/styleswitcher.js"></script>
 <script type="text/javascript" src="{T_TEMPLATE_PATH}/forum_fn.js"></script>
 <script src="{T_TEMPLATE_PATH}/jquery-1.4.4.min.js" type="text/javascript"></script>
-
-<!--[if lt IE 7]>
-<script type="text/javascript">
-// <![CDATA[
-// Universal transparent-PNG enabler for MSIE/Win 5.5+
-// http://dsandler.org
-// From original code: http://www.youngpup.net/?request=/snippets/sleight.xml
-// and background-image code: http://www.allinthehead.com/retro/69
-// also:
-//  * use sizingMethod=crop to avoid scaling PNGs (who would do such a thing?)
-//  * only do this once, to make it compatible with CSS rollovers
-
-if (navigator.platform == "Win32" && navigator.appName == "Microsoft Internet Explorer" && window.attachEvent) {
-	window.attachEvent("onload", enableAlphaImages);
-}
-
-function enableAlphaImages(){
-	var rslt = navigator.appVersion.match(/MSIE (\d+\.\d+)/, '');
-	var itsAllGood = (rslt != null && Number(rslt[1]) >= 5.5);
-	if (itsAllGood) {
-		for (var i=0; i<document.all.length; i++){
-			var obj = document.all[i];
-			var bg = obj.currentStyle.backgroundImage;
-			var img = document.images[i];
-			if (bg && bg.match(/\.png/i) != null) {
-				var img = bg.substring(5,bg.length-2);
-				var offset = obj.style["background-position"];
-				obj.style.filter =
-				"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+img+"', sizingMethod='crop')";
-				obj.style.backgroundImage = "url('{T_THEME_PATH}/images/blank.gif')";
-				//obj.style["background-position"] = offset; // reapply
-			} else if (img && img.src.match(/\.png$/i) != null) {
-				var src = img.src;
-				img.style.width = img.width + "px";
-				img.style.height = img.height + "px";
-				img.style.filter =
-				"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+src+"', sizingMethod='crop')"
-				img.src = "{T_THEME_PATH}/images/blank.gif";
-			}
-
-		}
-	}
-}
-// ]]>
-</script>
-<![endif]-->
 
 <script type="text/javascript">
 // <![CDATA[
@@ -212,7 +172,13 @@ $(document).ready(function(){
 	}
 	<!-- ENDIF -->
 	resize_images();
-
+	
+	// IE6 and below PNG fix (not really)
+	if(is_ie6)
+	{
+		replace_png();
+	}
+	
 	//CLOSING POPUP
 	//Click the x event!
 	$('#popupPMClose').click(function(){
@@ -299,6 +265,26 @@ function resize_images()
 			   
 			// set new image dimensions
 			$(this).height(newHeight).width(newWidth);
+		}
+	});
+}
+
+/**
+* Replaces weird looking PNG files with the respectie GIF file
+* Only run this if the browser is IE6 or below
+*/
+function replace_png()
+{
+	// Fix Logo
+	var str = $('#logo img').attr('src'); 
+	$('#logo img').attr('src', str.substring(0, str.length - 3) + 'gif');
+	
+	// Fix forum icons
+	$('dl.icon').each(function() {
+		var str = $(this).css('background-image');
+		if(str != '')
+		{
+			$(this).css('background-image', str.substring(0, str.length - 5) + 'gif")');
 		}
 	});
 }

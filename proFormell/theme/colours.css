@@ -98,19 +98,19 @@ hr.dashed {
 }
 
 span.corners-top {
-	background-image: url("{T_THEME_PATH}/images/corners_left.png");
+	background-image: url("{T_THEME_PATH}/images/corners_left.gif");
 }
 
 span.corners-top span {
-	background-image: url("{T_THEME_PATH}/images/corners_right.png");
+	background-image: url("{T_THEME_PATH}/images/corners_right.gif");
 }
 
 span.corners-bottom {
-	background-image: url("{T_THEME_PATH}/images/corners_left.png");
+	background-image: url("{T_THEME_PATH}/images/corners_left.gif");
 }
 
 span.corners-bottom span {
-	background-image: url("{T_THEME_PATH}/images/corners_right.png");
+	background-image: url("{T_THEME_PATH}/images/corners_right.gif");
 }
 
 /* Horizontal lists
@@ -342,10 +342,10 @@ a.top2 {
 }
 
 /* Arrow links  */
-a.up		{ background-image: url("{T_THEME_PATH}/images/arrow_up.png") }
-a.down		{ background-image: url("{T_THEME_PATH}/images/arrow_down.png") }
-a.left		{ background-image: url("{T_THEME_PATH}/images/arrow_left.png") }
-a.right		{ background-image: url("{T_THEME_PATH}/images/arrow_right.png") }
+a.up		{ background-image: url("{T_THEME_PATH}/images/arrow_up.gif") }
+a.down		{ background-image: url("{T_THEME_PATH}/images/arrow_down.gif") }
+a.left		{ background-image: url("{T_THEME_PATH}/images/arrow_left.gif") }
+a.right		{ background-image: url("{T_THEME_PATH}/images/arrow_right.gif") }
 
 a.up:hover {
 	background-color: transparent;
@@ -463,12 +463,12 @@ dl.faq dt {
 /* Quote block */
 blockquote {
 	background-color: #EBEADD;
-	background-image: url("{T_THEME_PATH}/images/quote.png");
+	background-image: url("{T_THEME_PATH}/images/quote.gif");
 	border-color:#DBDBCE;
 }
 
 .rtl blockquote {
-	background-image: url("{T_THEME_PATH}/images/quote_rtl.png");
+	background-image: url("{T_THEME_PATH}/images/quote_rtl.gif");
 }
 
 blockquote blockquote {
@@ -665,11 +665,11 @@ Colours and backgrounds for buttons.css
 .forwardpm-icon span 			{ background-image: url("{IMG_BUTTON_PM_FORWARD_SRC}") ;}
 
 a.print {
-	background-image: url("{T_THEME_PATH}/images/icon_print.png");
+	background-image: url("{T_THEME_PATH}/images/icon_print_mail.png");
 }
 
 a.sendemail {
-	background-image: url("{T_THEME_PATH}/images/icon_sendemail.png");
+	background-image: url("{T_THEME_PATH}/images/icon_print_mail.png");
 }
 
 a.fontsize {
@@ -748,11 +748,11 @@ ul.cplist {
 /* CP tabbed menu
 ----------------------------------------*/
 #tabs a {
-	background-image: url("{T_THEME_PATH}/images/bg_tabs1.png");
+	background-image: url("{T_THEME_PATH}/images/bg_tabs1.gif");
 }
 
 #tabs a span {
-	background-image: url("{T_THEME_PATH}/images/bg_tabs2.png");
+	background-image: url("{T_THEME_PATH}/images/bg_tabs2.gif");
 	color: #000000;
 }
 
@@ -832,36 +832,36 @@ ul.cplist {
 }
 
 #cp-main span.corners-top, #cp-menu span.corners-top {
-	background-image: url("{T_THEME_PATH}/images/corners_left2.png");
+	background-image: url("{T_THEME_PATH}/images/corners_left2.gif");
 }
 
 #cp-main span.corners-top span, #cp-menu span.corners-top span {
-	background-image: url("{T_THEME_PATH}/images/corners_right2.png");
+	background-image: url("{T_THEME_PATH}/images/corners_right2.gif");
 }
 
 #cp-main span.corners-bottom, #cp-menu span.corners-bottom {
-	background-image: url("{T_THEME_PATH}/images/corners_left2.png");
+	background-image: url("{T_THEME_PATH}/images/corners_left2.gif");
 }
 
 #cp-main span.corners-bottom span, #cp-menu span.corners-bottom span {
-	background-image: url("{T_THEME_PATH}/images/corners_right2.png");
+	background-image: url("{T_THEME_PATH}/images/corners_right2.gif");
 }
 
 /* Topicreview */
 #cp-main .panel #topicreview span.corners-top, #cp-menu .panel #topicreview span.corners-top {
-	background-image: url("{T_THEME_PATH}/images/corners_left.png");
+	background-image: url("{T_THEME_PATH}/images/corners_left.gif");
 }
 
 #cp-main .panel #topicreview span.corners-top span, #cp-menu .panel #topicreview span.corners-top span {
-	background-image: url("{T_THEME_PATH}/images/corners_right.png");
+	background-image: url("{T_THEME_PATH}/images/corners_right.gif");
 }
 
 #cp-main .panel #topicreview span.corners-bottom, #cp-menu .panel #topicreview span.corners-bottom {
-	background-image: url("{T_THEME_PATH}/images/corners_left.png");
+	background-image: url("{T_THEME_PATH}/images/corners_left.gif");
 }
 
 #cp-main .panel #topicreview span.corners-bottom span, #cp-menu .panel #topicreview span.corners-bottom span {
-	background-image: url("{T_THEME_PATH}/images/corners_right.png");
+	background-image: url("{T_THEME_PATH}/images/corners_right.gif");
 }
 
 /* Friends list */
@@ -1032,7 +1032,7 @@ input.disabled {
    
 .top-left { 
    background-color: transparent;
-   background-image: url("{T_THEME_PATH}/images/corners_top.png"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
+   background-image: url("{T_THEME_PATH}/images/corners_top.gif"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
    background-position: 0 -20px; /* CHANGE: replace second number by negative height of one of your corners */
    margin-left: 2px;  /* CHANGE: replace by the width of one of your corners */
    margin-top: 0px;  /* CHANGE: replace by the height of one of your corners */
@@ -1040,7 +1040,7 @@ input.disabled {
    }
 .top-right { 
    background-color: transparent;
-   background-image: url("{T_THEME_PATH}/images/corners_top.png"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
+   background-image: url("{T_THEME_PATH}/images/corners_top.gif"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
    background-position: 100% 0;    /* DNC: position right corner at right side, no vertical changes */
    margin-left: 0px;  /* CHANGE: replace by the width of one of your corners */
    margin-top: -9px;  /* CHANGE: replace by the height of one of your corners */
@@ -1050,7 +1050,7 @@ input.disabled {
    background-color: transparent;
    background-color: transparent;
    background-repeat: repeat-x;
-   background-image: url("{T_THEME_PATH}/images/bg_headers.png"); /* CHANGE: path and name of your image */
+   background-image: url("{T_THEME_PATH}/images/bg_headers.gif"); /* CHANGE: path and name of your image */
    background-position: 0 0px; /* CHANGE: replace second number by negative height of one of your corners */
    height: 20px;       /* CHANGE: replace by the height of one of your corners (= 1/2 height of the image) */   /* DNC: correction IE for height of the <div>'s */
    margin-left: 20px;  /* CHANGE: replace by the width of one of your corners */
@@ -1061,7 +1061,7 @@ input.disabled {
    
 .bottom-left  { 
    background-color: transparent;
-   background-image: url("{T_THEME_PATH}/images/corners_bottom.png"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
+   background-image: url("{T_THEME_PATH}/images/corners_bottom.gif"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
    background-position: 0 0px; /* CHANGE: replace second number by negative height of one of your corners */
    margin-right: 0px; /* CHANGE: replace by the width of one of your corners */
    margin-left: 2px;  /* CHANGE: replace by the width of one of your corners */
@@ -1069,7 +1069,7 @@ input.disabled {
    }
 .bottom-right { 
    background-color: transparent;
-   background-image: url("{T_THEME_PATH}/images/corners_bottom.png"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
+   background-image: url("{T_THEME_PATH}/images/corners_bottom.gif"); background-repeat:no-repeat; /* CHANGE: path and name of your image */
    background-position: 100% -20px; /* CHANGE: replace second number by negative height of one of your corners */
    margin-right: 1px; /* CHANGE: replace by the width of one of your corners */
    margin-left: 0px;  /* CHANGE: replace by the width of one of your corners */
@@ -1078,7 +1078,7 @@ input.disabled {
 .bottom-center { 
    background-color: transparent;
    background-repeat: repeat-x;
-   background-image: url("{T_THEME_PATH}/images/bg_footers.png"); /* CHANGE: path and name of your image */
+   background-image: url("{T_THEME_PATH}/images/bg_footers.gif"); /* CHANGE: path and name of your image */
    background-position: 0 0px; /* CHANGE: replace second number by negative height of one of your corners */
    height: 20px;       /* CHANGE: replace by the height of one of your corners (= 1/2 height of the image) */   /* DNC: correction IE for height of the <div>'s */
    margin-left: 20px;  /* CHANGE: replace by the width of one of your corners */
@@ -1099,14 +1099,14 @@ input.disabled {
 .nobottomgap { margin-bottom: 0; } /* DNC: to avoid splitting of the box */
 
 #left-border {
-	background-image: url('{T_THEME_PATH}/images/bg_left.png');
+	background-image: url('{T_THEME_PATH}/images/bg_left.gif');
 	background-position: 0% 100%;
 	background-repeat: repeat-y;
 	padding-left: 17px;
 }
 
 #right-border  {
-	background-image: url('{T_THEME_PATH}/images/bg_right.png');
+	background-image: url('{T_THEME_PATH}/images/bg_right.gif');
 	background-position: 100% 0%;
 	background-repeat: repeat-y;
 	margin-right: -2px;

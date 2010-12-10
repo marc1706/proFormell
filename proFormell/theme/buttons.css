@@ -63,11 +63,13 @@ a.print, a.sendemail, a.fontsize {
 a.print {
 	background-image: none;
 	width: 25px;
+	background-position: 0 0;
 }
 
 a.sendemail {
 	background-image: none;
 	width: 24px;
+	background-position: 0 100%;
 }
 
 a.fontsize {
@@ -90,7 +92,6 @@ a.fontsize:hover {
 	background-image: none;
 	padding: 1px 0 0 17px;
 }
-
 /* Poster profile icons
 ----------------------------------------*/
 ul.profile-icons {
