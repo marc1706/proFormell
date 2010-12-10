@@ -26,3 +26,10 @@ The font used in the big buttons is Arial Bold and the font size is 12pt.
 icon_post_quote.gif and icon_post_edit.gif both use Arial Bold and the 
 font size is 5pt. Font color is #bc2a4d and anti-aliasing is used 
 ("Strong" in Photoshop).
+
+***********************************************************************7
+
+Some copyright information:
+
+Borders partially made with Shoots's Guide to Styling Prosilver
+Icons partially by Crystal Project http://www.everaldo.com/crystal/
