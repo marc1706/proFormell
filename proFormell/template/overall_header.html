@@ -171,7 +171,9 @@ $(document).ready(function(){
 		loadPopup();
 	}
 	<!-- ENDIF -->
+	<!-- IF S_VIEWTOPIC -->
 	resize_images();
+	<!-- ENDIF -->
 	
 	// IE6 and below PNG fix (not really)
 	if(is_ie6)
@@ -198,6 +200,7 @@ $(document).ready(function(){
 		}
 	});
 	
+	<!-- IF S_VIEWTOPIC -->
 	// Image popup
 	$('img', 'dt.attach-image').click(function(){
 		image_load($(this).attr('src'), $(this).attr('alt'));
@@ -228,9 +231,31 @@ $(document).ready(function(){
 	$('#ImagePopup img').click(function(){
 		disableImage();
 	});
+	<!-- ENDIF -->
 
 });
 
+/**
+* Replaces weird looking PNG files with the respectie GIF file
+* Only run this if the browser is IE6 or below
+*/
+function replace_png()
+{
+	// Fix Logo
+	var str = $('#logo img').attr('src'); 
+	$('#logo img').attr('src', str.substring(0, str.length - 3) + 'gif');
+	
+	// Fix forum icons
+	$('dl.icon').each(function() {
+		var str = $(this).css('background-image');
+		if(str != '')
+		{
+			$(this).css('background-image', str.substring(0, str.length - 5) + 'gif")');
+		}
+	});
+}
+
+<!-- IF S_VIEWTOPIC -->
 /**
 * Image resizer
 */
@@ -265,26 +290,6 @@ function resize_images()
 			   
 			// set new image dimensions
 			$(this).height(newHeight).width(newWidth);
-		}
-	});
-}
-
-/**
-* Replaces weird looking PNG files with the respectie GIF file
-* Only run this if the browser is IE6 or below
-*/
-function replace_png()
-{
-	// Fix Logo
-	var str = $('#logo img').attr('src'); 
-	$('#logo img').attr('src', str.substring(0, str.length - 3) + 'gif');
-	
-	// Fix forum icons
-	$('dl.icon').each(function() {
-		var str = $(this).css('background-image');
-		if(str != '')
-		{
-			$(this).css('background-image', str.substring(0, str.length - 5) + 'gif")');
 		}
 	});
 }
@@ -350,6 +355,7 @@ function disableImage()
 		openPopup = '';
 	}
 }
+<!-- ENDIF -->
 
 // ]]>
 </script>
