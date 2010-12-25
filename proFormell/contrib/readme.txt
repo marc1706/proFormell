@@ -9,7 +9,8 @@ MMMooNMMMMMsodMMMNoosMMMNhooooooooooomMMyodMMMMMMMMMMMmsoooooooooosMMM
 
 
 Thank you for downloading this style.
-If you like it please consider donating, even one euro will help a lot. More information on my homepage.
+If you like it please consider donating, even one euro will help a lot.
+More information on my homepage.
 
 Homepage:
 http://www.m-a-styles.de
@@ -27,7 +28,7 @@ icon_post_quote.gif and icon_post_edit.gif both use Arial Bold and the
 font size is 5pt. Font color is #bc2a4d and anti-aliasing is used 
 ("Strong" in Photoshop).
 
-***********************************************************************7
+***********************************************************************
 
 Some copyright information:
 
