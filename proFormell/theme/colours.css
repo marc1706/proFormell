@@ -48,7 +48,7 @@ hr.dashed {
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .headerbar {
-	background: #FFFFFF url("{T_THEME_PATH}/images/header_bg.gif") no-repeat 50% 0;
+	background: #FFFFFF url("{T_THEME_PATH}/images/header_bg.png") no-repeat 50% 0;
 	max-width: 1400px;
 	height: 150px;
 	color: #FFFFFF;
@@ -64,12 +64,12 @@ hr.dashed {
 
 .forabg {
 	background-color: #000000;
-	background-image: url("{T_THEME_PATH}/images/bg_list.gif");
+	background-image: url("{T_THEME_PATH}/images/bg_list.png");
 }
 
 .forumbg {
 	background-color: #000000;
-	background-image: url("{T_THEME_PATH}/images/bg_list.gif");
+	background-image: url("{T_THEME_PATH}/images/bg_list.png");
 }
 
 .panel {
@@ -98,19 +98,19 @@ hr.dashed {
 }
 
 span.corners-top {
-	background-image: url("{T_THEME_PATH}/images/corners_left.png");
+	background-image: url("{T_THEME_PATH}/images/corners_left.gif");
 }
 
 span.corners-top span {
-	background-image: url("{T_THEME_PATH}/images/corners_right.png");
+	background-image: url("{T_THEME_PATH}/images/corners_right.gif");
 }
 
 span.corners-bottom {
-	background-image: url("{T_THEME_PATH}/images/corners_left.png");
+	background-image: url("{T_THEME_PATH}/images/corners_left.gif");
 }
 
 span.corners-bottom span {
-	background-image: url("{T_THEME_PATH}/images/corners_right.png");
+	background-image: url("{T_THEME_PATH}/images/corners_right.gif");
 }
 
 /* Horizontal lists
@@ -191,7 +191,7 @@ dl.details dd {
 
 /* Pagination in viewforum for multipage topics */
 .row .pagination {
-	background-image: url("{T_THEME_PATH}/images/icon_pages.gif");
+	background-image: url("{T_THEME_PATH}/images/icon_pages.png");
 }
 
 .row .pagination span a, li.pagination span a {
@@ -367,7 +367,7 @@ Colours and backgrounds for content.css
 
 ul.forums {
 	background-color: #FEFCFF;
-	background-image: url("{T_THEME_PATH}/images/gradient.gif");
+	background-image: url("{T_THEME_PATH}/images/gradient.png");
 }
 
 ul.topiclist li {
@@ -648,7 +648,7 @@ fieldset.polls dd div {
 }
 
 .online {
-	background-image: url("{T_IMAGESET_LANG_PATH}/icon_user_online.gif");
+	background-image: url("{T_IMAGESET_LANG_PATH}/icon_user_online.png");
 }
 
 /*  	
@@ -665,32 +665,32 @@ Colours and backgrounds for buttons.css
 .forwardpm-icon span 			{ background-image: url("{IMG_BUTTON_PM_FORWARD_SRC}") ;}
 
 a.print {
-	background-image: url("{T_THEME_PATH}/images/icon_print.gif");
+	background-image: url("{T_THEME_PATH}/images/icon_print_mail.png");
 }
 
 a.sendemail {
-	background-image: url("{T_THEME_PATH}/images/icon_sendemail.gif");
+	background-image: url("{T_THEME_PATH}/images/icon_print_mail.png");
 }
 
 a.fontsize {
-	background-image: url("{T_THEME_PATH}/images/icon_fontsize.gif");
+	background-image: url("{T_THEME_PATH}/images/icon_fontsize.png");
 }
 
 /* Icon images
 ---------------------------------------- */
-.sitehome						{ background-image: url("{T_THEME_PATH}/images/icon_home.gif"); }
+.sitehome						{ background-image: url("{T_THEME_PATH}/images/icon_home.png"); }
 .icon-faq						{ background-image: url("{T_THEME_PATH}/images/icon_faq.png"); }
-.icon-members					{ background-image: url("{T_THEME_PATH}/images/icon_members.gif"); }
-.icon-home						{ background-image: url("{T_THEME_PATH}/images/icon_home.gif"); }
-.icon-ucp						{ background-image: url("{T_THEME_PATH}/images/icon_ucp.gif"); }
-.icon-register					{ background-image: url("{T_THEME_PATH}/images/icon_register.gif"); }
-.icon-logout					{ background-image: url("{T_THEME_PATH}/images/icon_logout.gif"); }
-.icon-bookmark					{ background-image: url("{T_THEME_PATH}/images/icon_bookmark.gif"); }
-.icon-bump						{ background-image: url("{T_THEME_PATH}/images/icon_bump.gif"); }
-.icon-subscribe					{ background-image: url("{T_THEME_PATH}/images/icon_subscribe.gif"); }
-.icon-unsubscribe				{ background-image: url("{T_THEME_PATH}/images/icon_unsubscribe.gif"); }
-.icon-pages						{ background-image: url("{T_THEME_PATH}/images/icon_pages.gif"); }
-.icon-search					{ background-image: url("{T_THEME_PATH}/images/icon_search.gif"); }
+.icon-members					{ background-image: url("{T_THEME_PATH}/images/icon_members.png"); }
+.icon-home						{ background-image: url("{T_THEME_PATH}/images/icon_home.png"); }
+.icon-ucp						{ background-image: url("{T_THEME_PATH}/images/icon_ucp.png"); }
+.icon-register					{ background-image: url("{T_THEME_PATH}/images/icon_register.png"); }
+.icon-logout					{ background-image: url("{T_THEME_PATH}/images/icon_logout.png"); }
+.icon-bookmark					{ background-image: url("{T_THEME_PATH}/images/icon_bookmark.png"); }
+.icon-bump						{ background-image: url("{T_THEME_PATH}/images/icon_bump.png"); }
+.icon-subscribe					{ background-image: url("{T_THEME_PATH}/images/icon_subscribe.png"); }
+.icon-unsubscribe				{ background-image: url("{T_THEME_PATH}/images/icon_unsubscribe.png"); }
+.icon-pages						{ background-image: url("{T_THEME_PATH}/images/icon_pages.png"); }
+.icon-search					{ background-image: url("{T_THEME_PATH}/images/icon_search.png"); }
 
 /* Profile & navigation icons */
 .email-icon, .email-icon a		{ background-image: url("{IMG_ICON_CONTACT_EMAIL_SRC}"); }
@@ -748,11 +748,11 @@ ul.cplist {
 /* CP tabbed menu
 ----------------------------------------*/
 #tabs a {
-	background-image: url("{T_THEME_PATH}/images/bg_tabs1.png");
+	background-image: url("{T_THEME_PATH}/images/bg_tabs1.gif");
 }
 
 #tabs a span {
-	background-image: url("{T_THEME_PATH}/images/bg_tabs2.png");
+	background-image: url("{T_THEME_PATH}/images/bg_tabs2.gif");
 	color: #000000;
 }
 
@@ -793,11 +793,11 @@ ul.cplist {
 #navigation a {
 	color: #333;
 	background-color: #bababa;
-	background-image: url("{T_THEME_PATH}/images/bg_menu.gif");
+	background-image: url("{T_THEME_PATH}/images/bg_menu.png");
 }
 
 .rtl #navigation a {
-	background-image: url("{T_THEME_PATH}/images/bg_menu_rtl.gif");
+	background-image: url("{T_THEME_PATH}/images/bg_menu_rtl.png");
 	background-position: 0 100%;
 }
 
@@ -989,7 +989,7 @@ fieldset.quick-login input.inputbox {
 a.button1, input.button1, input.button3, a.button2, input.button2 {
 	color: #000;
 	background-color: #FAFAFA;
-	background-image: url("{T_THEME_PATH}/images/bg_button.gif");
+	background-image: url("{T_THEME_PATH}/images/bg_button.png");
 }
 
 a.button1, input.button1 {
@@ -1017,7 +1017,7 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 }
 
 input.search {
-	background-image: url("{T_THEME_PATH}/images/icon_textbox_search.gif");
+	background-image: url("{T_THEME_PATH}/images/icon_textbox_search.png");
 }
 
 input.disabled {

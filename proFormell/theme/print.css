@@ -1,4 +1,4 @@
-/* proSilver Print Style Sheet
+/* proFormell Print Style Sheet
 -------------------------------------------------
 	Author: subBlue  ( http://www.subBlue.com/ )
 	Version: 25 August 2004
@@ -142,3 +142,5 @@ div.spacer { clear: both; }
 
 /* Accessibility tweaks: Mozilla.org */
 .skip_link { display: none; }
+
+dl.codebox dt { display: none; }

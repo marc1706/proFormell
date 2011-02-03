@@ -1,0 +1,95 @@
+/**
+* based on http://yensdesign.com/2008/09/how-to-create-a-stunning-and-smooth-popup-using-jquery/
+* modified by Marc Alexander 2010
+*/
+
+#backgroundPopup {
+	display:none;
+	position:fixed;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+}
+
+#popupPM {
+	display:none;
+	position:fixed;
+	height:384px;
+	width:408px;
+	background:#FFFFFF;
+	border:2px solid #cecece;
+	z-index:2;
+	padding:12px;
+	font-size:13px;
+}
+
+#popupPMClose {
+	font-size:14px;
+	line-height:14px;
+	right:6px;
+	top:4px;
+	position:absolute;
+	color:#6fa5fd;
+	font-weight:700;
+	display:block;
+}
+
+#popupImage{
+	display:none;
+	position:fixed;
+	height:auto;
+	max-width:80%;
+	background:#FFFFFF;
+	border:2px solid #cecece;
+	z-index:2;
+	padding:12px;
+	font-size:13px;
+}
+
+#popupImageClose {
+	font-size:14px;
+	line-height:14px;
+	right:6px;
+	top:4px;
+	position:relative;
+	color:#6B6B6B;
+	font-weight:700;
+	display:block;
+	text-align: right;
+}
+
+#ImagePopup {
+	margin-bottom: 0;
+	padding: 0 0 10px 0;
+}
+
+#popupHeader {
+	border-bottom:1px dotted #D3D3D3;
+	color:#6FA5FD;
+	font-size:22px;
+	font-weight:700;
+	margin-bottom:20px;
+	padding-bottom:2px;
+	text-align:left;
+}
+
+/*
+* Fixes for IE6 can be found below
+* It won't get beautiful in IE6, but it will work without bugs
+*/
+* html #backgroundPopup {
+	position: absolute;
+}
+
+* html #popupPM {
+	position: absolute;
+	z-index: 0;
+}
+
+* html #popupImage {
+	position: absolute;
+	z-index: 0;
+}

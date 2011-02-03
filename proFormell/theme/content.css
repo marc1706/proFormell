@@ -1,4 +1,4 @@
-/* proSilver Content Styles
+/* proFormell Content Styles
 ---------------------------------------- */
 
 ul.topiclist {
@@ -122,7 +122,7 @@ dl.icon {
 dl.icon dt {
 	padding-left: 45px;					/* Space for folder icon */
 	background-repeat: no-repeat;
-	background-position: 5px 95%;		/* Position of topic icon */
+	background-position: 24px 105%;		/* Position of topic icon */
 }
 
 dd.posts, dd.topics, dd.views {
@@ -296,6 +296,20 @@ div[class].topic-actions {
 
 .post-ignore .postbody {
    display: none;
+}
+
+/* MCP Post details
+----------------------------------------*/
+#post_details
+{
+	/* This will only work in IE7+, plus the others */
+	overflow: auto;
+	max-height: 300px;
+}
+
+#expand
+{
+	clear: both;
 }
 
 /* Content container styles
@@ -566,7 +580,7 @@ dl.codebox code {
 	margin: 3px 0;
 	width: 100%;
 	max-height: 350px;
-	overflow: auto;
+	overflow: hidden;
 }
 
 .attach-image img {

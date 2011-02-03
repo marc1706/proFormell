@@ -1,4 +1,4 @@
-/* proSilver RTL definitions
+/* proFormell RTL definitions
 ---------------------------------------- */
 
 /**
@@ -236,6 +236,7 @@
 }
 
 .rtl a.top2 {
+    background-position: 100% 50%;
 	padding-left: 0;
 	padding-right: 15px;
 }
@@ -753,4 +754,3 @@
 .rtl #wrap, .rtl .headerbar, .rtl #site-description, .rtl .navbar {
    position: relative;
 }
-
