@@ -9,8 +9,7 @@ MMMooNMMMMMsodMMMNoosMMMNhooooooooooomMMyodMMMMMMMMMMMmsoooooooooosMMM
 
 
 Thank you for downloading this style.
-If you like it please consider donating, even one euro will help a lot.
-More information on my homepage.
+If you like it please consider donating, even one euro will help a lot. More information on my homepage.
 
 Homepage:
 http://www.m-a-styles.de
@@ -33,4 +32,3 @@ font size is 5pt. Font color is #bc2a4d and anti-aliasing is used
 Some copyright information:
 
 Borders partially made with Shoots's Guide to Styling Prosilver
-Icons partially by Crystal Project http://www.everaldo.com/crystal/
