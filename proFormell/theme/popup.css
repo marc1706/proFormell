@@ -1,7 +1,8 @@
-/**
-* based on http://yensdesign.com/2008/09/how-to-create-a-stunning-and-smooth-popup-using-jquery/
-* modified by Marc Alexander 2010
-*/
+/* Popup Styles
+----------------------------------------
+	based on http://yensdesign.com/2008/09/how-to-create-a-stunning-and-smooth-popup-using-jquery/
+	modified by Marc Alexander 2010
+---------------------------------------- */
 
 #backgroundPopup {
 	display:none;

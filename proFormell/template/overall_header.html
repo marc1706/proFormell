@@ -8,7 +8,7 @@
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="resource-type" content="document" />
 <meta name="distribution" content="global" />
-<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group, 2007 - 2011 Marc Alexander" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group, 2007 - 2012 Marc Alexander" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 {META}
@@ -66,7 +66,7 @@
 		{
 			eval(onload_functions[i]);
 		}
-	}
+	};
 
 	window.onunload = function()
 	{
@@ -74,7 +74,7 @@
 		{
 			eval(onunload_functions[i]);
 		}
-	}
+	};
 
 // ]]>
 </script>
@@ -95,7 +95,7 @@ var is_ie6 = true;
 	<link href="{T_THEME_PATH}/bidi.css" rel="stylesheet" type="text/css" media="screen, projection" />
 <!-- ENDIF -->
 
-<script type="text/javascript" src="{T_SUPER_TEMPLATE_PATH}/forum_fn.js"></script>
+<script type="text/javascript" src="{T_TEMPLATE_PATH}/forum_fn.js"></script>
 <script src="{T_SUPER_TEMPLATE_PATH}/jquery-1.4.4.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">

@@ -1,4 +1,6 @@
-/* Below you can find fixes for IE6 and below */
+/* Tweaks for IE6 and below
+---------------------------------------- */
+
 * html .icon-members					{ background-image: url("{T_THEME_PATH}/images/icon_members.gif"); }
 * html .icon-ucp						{ background-image: url("{T_THEME_PATH}/images/icon_ucp.gif"); }
 * html .icon-register					{ background-image: url("{T_THEME_PATH}/images/icon_register.gif"); }
