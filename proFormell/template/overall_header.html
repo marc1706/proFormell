@@ -95,7 +95,7 @@ var is_ie6 = true;
 <!-- ENDIF -->
 
 <script type="text/javascript" src="{T_TEMPLATE_PATH}/forum_fn.js"></script>
-<script src="{T_SUPER_TEMPLATE_PATH}/jquery-1.4.4.min.js" type="text/javascript"></script>
+<script src="{T_TEMPLATE_PATH}/jquery-1.7.1.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 // <![CDATA[
@@ -160,7 +160,7 @@ function centerPopup()
 }
 
 $(document).ready(function(){
-	<!-- IF S_USER_PM_POPUP -->	
+	<!-- IF S_USER_PM_POPUP and S_NEW_PM -->	
 		//centering with css
 		centerPopup();
 		//load popup
@@ -184,14 +184,18 @@ $(document).ready(function(){
 	//Click out event!
 	$('#backgroundPopup').click(function(){
 		disablePopup();
+		<!-- IF S_VIEWTOPIC -->
 		disableImage();
+		<!-- ENDIF -->
 	});
 	//Press Escape event!
 	$(document).keypress(function(e){
 		if(e.keyCode==27 && popupStatus==1)
 		{
 			disablePopup();
+			<!-- IF S_VIEWTOPIC -->
 			disableImage();
+			<!-- ENDIF -->
 		}
 	});
 	
