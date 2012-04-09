@@ -244,6 +244,10 @@ ul.cplist {
 	font-weight: bold;
 	color: #333;
 	background: #bababa none repeat-y 100% 0;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-moz-border-top-left-radius: 5px;
 }
 
 #navigation a:hover {
