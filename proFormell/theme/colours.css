@@ -35,6 +35,8 @@ hr.dashed {
 
 #search-box {
 	color: #FFFFFF;
+	background: none no-repeat scroll 0 0 rgba(194, 194, 194, 0.7);
+	box-shadow: -2px 4px 3px 0 rgba(2, 2, 2, 0.7);
 }
 
 #search-box #keywords {
