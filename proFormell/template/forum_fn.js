@@ -632,7 +632,7 @@ function readCookie(name)
 function load_cookie()
 {
 	var cookie = readCookie('style_cookie');
-	var title = cookie ? cookie : 'A-';
+	var title = cookie ? cookie : 'A';
 	setActiveStyleSheet(title);
 }
 
