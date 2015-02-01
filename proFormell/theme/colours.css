@@ -646,21 +646,21 @@ Colours and backgrounds for buttons.css
 
 /* Icon images
 ---------------------------------------- */
-.icon-acp					{ background-image: url("./images/icon_acp.gif"); }
+.icon-acp					{ background-image: url("./images/icon_acp.png"); }
 .icon-bookmark				{ background-image: url("./images/icon_bookmark.png"); }
 .icon-bump					{ background-image: url("./images/icon_bump.png"); }
-.icon-contact				{ background-image: url("./images/icon_pm.gif"); }
+.icon-contact				{ background-image: url("./images/icon_pm.png"); }
 .icon-delete-cookies		{ background-image: url("./images/icon_delete_cookies.gif"); }
 .icon-download				{ background-image: url("./images/icon_download.gif"); }
 .icon-faq					{ background-image: url("./images/icon_faq.png"); }
 .icon-home					{ background-image: url("./images/icon_home.png"); }
 .icon-logout				{ background-image: url("./images/icon_logout.png"); }
 .icon-mark					{ background-image: url("./images/icon_mark.gif"); }
-.icon-mcp					{ background-image: url("./images/icon_mcp.gif"); }
+.icon-mcp					{ background-image: url("./images/icon_mcp.png"); }
 .icon-members				{ background-image: url("./images/icon_members.png"); }
-.icon-notification			{ background-image: url("./images/icon_notification.gif"); }
+.icon-notification			{ background-image: url("./images/icon_notification.png"); }
 .icon-pages					{ background-image: url("./images/icon_pages.png"); }
-.icon-pm					{ background-image: url("./images/icon_pm.gif"); }
+.icon-pm					{ background-image: url("./images/icon_pm.png"); }
 .icon-print					{ background-image: url("./images/icon_print_mail.png"); }
 .icon-profile				{ background-image: url("./images/icon_profile.gif"); }
 .icon-register				{ background-image: url("./images/icon_register.png"); }
