@@ -398,11 +398,13 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 /* Search box (header)
 --------------------------------------------- */
 .search-header {
-	border-radius: 4px;
 	display: block;
 	float: right;
-	margin-right: 5px;
-	margin-top: 30px;
+	margin-top: -5px;
+	margin-right: -5px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 5px;
+	padding: 15px 5px;
 }
 
 .search-header .inputbox { border: 0; }
