@@ -656,12 +656,12 @@ Colours and backgrounds for buttons.css
 .icon-bookmark				{ background-image: url("./images/icon_bookmark.png"); }
 .icon-bump					{ background-image: url("./images/icon_bump.png"); }
 .icon-contact				{ background-image: url("./images/icon_pm.png"); }
-.icon-delete-cookies		{ background-image: url("./images/icon_delete_cookies.gif"); }
-.icon-download				{ background-image: url("./images/icon_download.gif"); }
+.icon-delete-cookies		{ background-image: url("./images/icon_delete_cookies.png"); }
+.icon-download				{ background-image: url("./images/icon_download.png"); }
 .icon-faq					{ background-image: url("./images/icon_faq.png"); }
 .icon-home					{ background-image: url("./images/icon_home.png"); }
 .icon-logout				{ background-image: url("./images/icon_logout.png"); }
-.icon-mark					{ background-image: url("./images/icon_mark.gif"); }
+.icon-mark					{ background-image: url("./images/icon_mark.png"); }
 .icon-mcp					{ background-image: url("./images/icon_mcp.png"); }
 .icon-members				{ background-image: url("./images/icon_members.png"); }
 .icon-notification			{ background-image: url("./images/icon_notification.png"); }
