@@ -682,6 +682,7 @@ Colours and backgrounds for buttons.css
 .icon-team					{ background-image: url("./images/icon_team.png"); }
 .icon-ucp					{ background-image: url("./images/icon_ucp.png"); }
 .icon-unsubscribe			{ background-image: url("./images/icon_unsubscribe.png"); }
+.online-list-image { background-image: url("./images/whosonline.png"); }
 
 /* Profile & navigation icons */
 .contact-icon													{ background-image: url("./images/icons_contact.png"); }

@@ -1294,3 +1294,11 @@ ul.linklist:after,
 .dropdown .clone.hidden + li {
 	border-top: none;
 }
+
+.online-list-image {
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 64px;
+	float: left;
+	padding: 5px;
+}
