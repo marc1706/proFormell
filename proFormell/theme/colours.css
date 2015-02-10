@@ -620,8 +620,6 @@ Colours and backgrounds for buttons.css
 	background-image: -o-linear-gradient(top, #f1f1f1, #f1f1f1);
 	background-image: linear-gradient(to bottom, #f1f1f1, #d2d2d2);
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f1f1f1', EndColorStr='#d2d2d2')";
-	box-shadow: 0 0 0 1px #555555 inset;
-	-webkit-box-shadow: 0 0 0 1px #555555 inset;
 	color: #0d0d0d;
 }
 
