@@ -613,30 +613,34 @@ dd.profile-warnings {
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
 .button {
-	border-color: #C7C3BF;
-	background-color: #FFFFFF;
-	background-image: -moz-linear-gradient(top, #FFFFFF, #E9E9E9);
-	background-image: -webkit-linear-gradient(top, #FFFFFF, #E9E9E9);
-	background-image: -o-linear-gradient(top, #FFFFFF, #E9E9E9);
-	background-image: linear-gradient(to bottom, #FFFFFF, #E9E9E9);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#E9E9E9')";
-	box-shadow: 0 0 0 1px #FFFFFF inset;
-	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
-	color: #D31141;
+	border-color: #6a6a6a;
+	background-color: #555555;
+	background-image: -moz-linear-gradient(top, #555555, #0c0c0c);
+	background-image: -webkit-linear-gradient(top, #555555, #0c0c0c);
+	background-image: -o-linear-gradient(top, #555555, #0c0c0c);
+	background-image: linear-gradient(to bottom, #555555, #0c0c0c);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#555555', EndColorStr='#0c0c0c')";
+	box-shadow: 0 0 0 1px #555555 inset;
+	-webkit-box-shadow: 0 0 0 1px #555555 inset;
+	color: #FCFCFC;
+}
+
+.button:hover {
+	color: #E9E9E9;
 }
 
 .dropdown-select {
-	color: #536482;
+	color: #FCFCFC;
 }
 
 .button:hover, .dropdown-visible .dropdown-select, .nojs .dropdown-container:hover .dropdown-select {
 	border-color: #0a8ed0;
-	background-image: -moz-linear-gradient(top, #E9E9E9, #FFFFFF);
-	background-image: -webkit-linear-gradient(top, #E9E9E9, #FFFFFF);
-	background-image: -o-linear-gradient(top, #E9E9E9, #FFFFFF);
-	background-image: linear-gradient(to bottom, #E9E9E9, #FFFFFF);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#E9E9E9', EndColorStr='#FFFFFF')";
-	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #FFFFFF, -1px -1px 0 rgba(188, 42, 77, 0.2);
+	background-image: -moz-linear-gradient(top, #0c0c0c, #555555);
+	background-image: -webkit-linear-gradient(top, #0c0c0c, #555555);
+	background-image: -o-linear-gradient(top, #0c0c0c, #555555);
+	background-image: linear-gradient(to bottom, #0c0c0c, #555555);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#0c0c0c', EndColorStr='#555555')";
+	text-shadow: 1px 1px 0 #555555, -1px -1px 0 #555555, -1px -1px 0 rgba(188, 42, 77, 0.2);
 }
 
 .dropdown-select:after	{ border-color: #DADADA; }
@@ -644,7 +648,7 @@ Colours and backgrounds for buttons.css
 
 .dropdown-visible .dropdown-select, .dropdown-visible .dropdown-select:hover, .nojs .dropdown-container:hover .dropdown-select {
 	border-color: #A6B2BA;
-	color: #105289;
+	color: #E9E9E9;
 }
 
 .contact-icons a		{ border-color: #DCDCDC; }
@@ -672,7 +676,7 @@ Colours and backgrounds for buttons.css
 .icon-register				{ background-image: url("./images/icon_register.png"); }
 .icon-search, .responsive-search a	{ background-image: url("./images/icon_search.png"); }
 .icon-search-active			{ background-image: url("./images/subforum_read.gif"); }
-.icon-search-advanced		{ background-image: url("./images/icon_search_adv.gif"); }
+.icon-search-advanced		{ background-image: url("./images/icon_search.png"); }
 .icon-search-new			{ background-image: url("./images/subforum_unread.gif"); }
 .icon-search-self			{ background-image: url("./images/icon_topic_latest.gif"); }
 .icon-search-unanswered		{ background-image: url("./images/icon_post_target.gif"); }
@@ -1066,7 +1070,7 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 }
 
 input.search {
-	background-image: url("./images/icon_textbox_search.gif");
+	background-image: url("./images/icon_textbox_search.png");
 }
 
 input.disabled {
