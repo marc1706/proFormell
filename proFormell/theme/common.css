@@ -56,7 +56,7 @@ body {
 	/* Text-Sizing with ems: http://www.clagnut.com/blog/348/ */
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	/*font-size: 62.5%;			 This sets the default font size to be equivalent to 10px */
-	font-size: 10px;
+	font-size: 11px;
 	line-height: normal;
 	margin: 0;
 	padding: 12px 0;
@@ -541,7 +541,7 @@ ul.linklist.bulletin > li.no-bulletin:before {
 .dropdown li {
 	border-top: 1px dotted transparent;
 	float: none !important;
-	line-height: normal !important;
+	line-height: 1.7em !important;
 	font-size: 1em !important;
 	list-style: none;
 	margin: 0;
