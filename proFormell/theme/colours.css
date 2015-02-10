@@ -778,28 +778,27 @@ ul.cplist {
 /* CP tabbed menu
 ----------------------------------------*/
 #tabs .tab > a {
-	background: #BACCD9;
+	background: #bcbeba;
 	color: #000000;
 }
 
 #tabs .tab > a:hover {
-	background: #DDEDFB;
+	background: #d7d9d6;
 	color: #D31141;
 }
 
 #tabs .activetab > a,
 #tabs .activetab > a:hover {
-	background: #CADCEB;
-	background: -moz-linear-gradient(top, #E2F2FF 0%, #CADCEB 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E2F2FF), color-stop(100%, #CADCEB));
-	background: -webkit-linear-gradient(top, #E2F2FF 0%, #CADCEB 100%);
-	background: -o-linear-gradient(top, #E2F2FF 0%, #CADCEB 100%);
-	background: -ms-linear-gradient(top, #E2F2FF 0%, #CADCEB 100%);
-	background: linear-gradient(to bottom, #E2F2FF 0%, #CADCEB 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2F2FF', endColorstr='#CADCEB', GradientType=0 );
-	border-color: #CADCEB;
+	background: #e1e1e1;
+	background: -moz-linear-gradient(top, #F2F2F2 0%, #e1e1e1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F2F2F2), color-stop(100%, #e1e1e1));
+	background: -webkit-linear-gradient(top, #F2F2F2 0%, #e1e1e1 100%);
+	background: -o-linear-gradient(top, #F2F2F2 0%, #e1e1e1 100%);
+	background: -ms-linear-gradient(top, #F2F2F2 0%, #e1e1e1 100%);
+	background: linear-gradient(to bottom, #F2F2F2 0%, #e1e1e1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F2F2F2', endColorstr='#e1e1e1', GradientType=0 );
+	border-color: #e1e1e1;
 	box-shadow: 0 1px 1px #F2F9FF inset;
-	color: #e1e1e1;
 }
 
 #tabs .activetab > a:hover {
@@ -834,25 +833,25 @@ ul.cplist {
 /* Link styles for the sub-section links */
 #navigation a {
 	color: #333;
-	background: #bababa;
-	background: -moz-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
-	background: -webkit-gradient(left top, right top, color-stop(50%, #B4C4D1), color-stop(100%, #CADCEB));
-	background: -webkit-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
-	background: -o-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
-	background: -ms-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
-	background: linear-gradient(to right, #B4C4D1 50%, #CADCEB 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B4C4D1', endColorstr='#CADCEB', GradientType=1 );
+	background: #e1e1e1;
+	background: -moz-linear-gradient(left, #bababa 50%, #e1e1e1 100%);
+	background: -webkit-gradient(left top, right top, color-stop(50%, #bababa), color-stop(100%, #e1e1e1));
+	background: -webkit-linear-gradient(left, #bababa 50%, #e1e1e1 100%);
+	background: -o-linear-gradient(left, #bababa 50%, #e1e1e1 100%);
+	background: -ms-linear-gradient(left, #bababa 50%, #e1e1e1 100%);
+	background: linear-gradient(to right, #bababa 50%, #e1e1e1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bababa', endColorstr='#e1e1e1', GradientType=1 );
 }
 
 .rtl #navigation a {
-	background: #B4C4D1;
-	background: -moz-linear-gradient(left, #CADCEB 0%, #B4C4D1 50%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, #CADCEB), color-stop(50%, #B4C4D1));
-	background: -webkit-linear-gradient(left, #CADCEB 0%, #B4C4D1 50%);
-	background: -o-linear-gradient(left, #CADCEB 0%, #B4C4D1 50%);
-	background: -ms-linear-gradient(left, #CADCEB 0%, #B4C4D1 50%);
-	background: linear-gradient(to right, #CADCEB 0%, #B4C4D1 50%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CADCEB', endColorstr='#B4C4D1', GradientType=1 );
+	background: #bababa;
+	background: -moz-linear-gradient(left, #e1e1e1 0%, #bababa 50%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #e1e1e1), color-stop(50%, #bababa));
+	background: -webkit-linear-gradient(left, #e1e1e1 0%, #bababa 50%);
+	background: -o-linear-gradient(left, #e1e1e1 0%, #bababa 50%);
+	background: -ms-linear-gradient(left, #e1e1e1 0%, #bababa 50%);
+	background: linear-gradient(to right, #e1e1e1 0%, #bababa 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1e1e1', endColorstr='#bababa', GradientType=1 );
 }
 
 #navigation a:hover {
@@ -1112,12 +1111,12 @@ input.disabled {
 
 .dropdown-extended .header {
 	background: #F1F8FF;
-	background: -moz-linear-gradient(top, #F1F8FF 0%, #CADCEB 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F1F8FF), color-stop(100%, #CADCEB));
-	background: -webkit-linear-gradient(top, #F1F8FF 0%, #CADCEB 100%);
-	background: -o-linear-gradient(top, #F1F8FF 0%, #CADCEB 100%);
-	background: -ms-linear-gradient(top, #F1F8FF 0%, #CADCEB 100%);
-	background: linear-gradient(to bottom, #F1F8FF 0%, #CADCEB 100%);
+	background: -moz-linear-gradient(top, #F1F8FF 0%, #e1e1e1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F1F8FF), color-stop(100%, #e1e1e1));
+	background: -webkit-linear-gradient(top, #F1F8FF 0%, #e1e1e1 100%);
+	background: -o-linear-gradient(top, #F1F8FF 0%, #e1e1e1 100%);
+	background: -ms-linear-gradient(top, #F1F8FF 0%, #e1e1e1 100%);
+	background: linear-gradient(to bottom, #F1F8FF 0%, #e1e1e1 100%);
 }
 
 .dropdown .pointer {
