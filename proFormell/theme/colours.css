@@ -668,7 +668,7 @@ Colours and backgrounds for buttons.css
 .icon-pages					{ background-image: url("./images/icon_pages.png"); }
 .icon-pm					{ background-image: url("./images/icon_pm.png"); }
 .icon-print					{ background-image: url("./images/icon_print_mail.png"); }
-.icon-profile				{ background-image: url("./images/icon_profile.gif"); }
+.icon-profile				{ background-image: url("./images/icon_profile.png"); }
 .icon-register				{ background-image: url("./images/icon_register.png"); }
 .icon-search, .responsive-search a	{ background-image: url("./images/icon_search.png"); }
 .icon-search-active			{ background-image: url("./images/subforum_read.gif"); }
@@ -679,7 +679,7 @@ Colours and backgrounds for buttons.css
 .icon-search-unread			{ background-image: url("./images/subforum_unread.gif"); }
 .icon-sendemail				{ background-image: url("./images/icon_print_mail.png"); }
 .icon-subscribe				{ background-image: url("./images/icon_subscribe.png"); }
-.icon-team					{ background-image: url("./images/icon_team.gif"); }
+.icon-team					{ background-image: url("./images/icon_team.png"); }
 .icon-ucp					{ background-image: url("./images/icon_ucp.png"); }
 .icon-unsubscribe			{ background-image: url("./images/icon_unsubscribe.png"); }
 
