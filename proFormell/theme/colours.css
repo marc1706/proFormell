@@ -49,6 +49,13 @@ hr {
 	box-shadow: 0 0 10px #0075B0;
 }
 
+#site-description h1 {
+	background: -webkit-linear-gradient(#fff, #cdcdcd);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 #wrap {
@@ -60,7 +67,6 @@ hr {
 	background-color: #12A3EB;
 	background-image: url("./images/header_bg.png");
 	color: #FFFFFF;
-	margin: 0 auto;
 }
 
 .navbar {
