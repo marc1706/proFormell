@@ -5,11 +5,11 @@ Colours and backgrounds for common.css
 
 html, body {
 	color: #000000;
-	background-color: #aba7a0;
+	background-color: #c9c9c9;
 }
 
 body {
-	background-color: #aba7a0;
+	background-color: #c9c9c9;
 }
 
 h1 {
@@ -64,7 +64,7 @@ hr {
 }
 
 .headerbar {
-	background-color: #12A3EB;
+	background-color: #414141;
 	background-image: url("./images/header_bg.png");
 	color: #FFFFFF;
 }
@@ -74,13 +74,11 @@ hr {
 }
 
 .forabg {
-	background-color: #000000;
-	background-image: url("./images/bg_list.png");
+	background-color: #686967;
 }
 
 .forumbg {
-	background-color: #000000;
-	background-image: url("./images/bg_list.png");
+	background-color: #686967;
 }
 
 .panel {
