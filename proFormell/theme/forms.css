@@ -314,6 +314,7 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
 a.button1, input.button1 {
 	font-weight: bold;
 	border: 1px solid transparent;
+	border-radius: 4px;
 }
 
 input.button3 {
@@ -329,9 +330,14 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="che
 	cursor: pointer;
 }
 
+input[type="checkbox"] {
+	visibility: hidden;
+}
+
 /* Alternative button */
 a.button2, input.button2, input.button3 {
 	border: 1px solid transparent;
+	border-radius: 4px;
 }
 
 /* <a> button in the style of the form buttons */
@@ -346,7 +352,7 @@ a.button1, a.button1:link, a.button1:visited, a.button1:active, a.button2, a.but
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
 	border: 1px solid transparent;
-	background-position: 0 100%;
+	border-radius: 4px;
 }
 
 input.disabled {

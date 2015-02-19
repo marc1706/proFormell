@@ -5,11 +5,11 @@ Colours and backgrounds for common.css
 
 html, body {
 	color: #000000;
-	background-color: #c9c9c9;
+	background-color: #f2f2f2;
 }
 
 body {
-	background-color: #c9c9c9;
+	background-color: #f2f2f2;
 }
 
 h1 {
@@ -70,15 +70,15 @@ hr {
 }
 
 .navbar {
-	background-color: #d2d2d2;
+	background-color: #797a78;
 }
 
 .forabg {
-	background-color: #686967;
+	background-color: #797a78;
 }
 
 .forumbg {
-	background-color: #686967;
+	background-color: #797a78;
 }
 
 .panel {
@@ -221,7 +221,7 @@ dl.details dd {
 }
 
 .reported {
-	background-color: #F7ECEF;
+	background-color: #e7b1ac;
 }
 
 li.reported:hover {
@@ -237,7 +237,7 @@ div.rules {
 }
 
 p.post-notice {
-	background-color: #ECD5D8;
+	background-color: #E74C3C;
 	background-image: none;
 }
 
@@ -253,13 +253,27 @@ p.post-notice.reported:before, p.post-notice.error:before {
 	background-image: url("./images/icon_topic_reported.gif");
 }
 
+p.post-notice.reported > a:hover {
+	color: #34495E;
+}
+
 /*
 --------------------------------------------------------------
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #000000; }
-a:hover	{ color: #D31141; }
+.navbar a {
+	color: #f5f5f5;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #3498DB;
+}
+
+.dropdown a { color: #0d0d0d; }
+
+a { color: #0d0d0d; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -1031,8 +1045,8 @@ fieldset.quick-login input.inputbox {
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {
 	color: #000;
-	background-color: #FAFAFA;
-	background-image: url("./images/bg_button.png");
+	background-color: #bdc3c7;
+	transition: border .25s linear,color .25s linear,background-color .25s linear;
 }
 
 a.button1, input.button1 {
@@ -1055,8 +1069,10 @@ a.button1, a.button2 {
 
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
-	border-color: #BC2A4D;
 	color: #BC2A4D;
+	transition: border .25s linear,color .25s linear,background-color .25s linear;
+	background-color:#cacfd2;
+	border-color:#cacfd2
 }
 
 /* Focus states */
@@ -1167,4 +1183,8 @@ ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist 
 
 li.notification-reported strong, li.notification-disapproved strong {
 	color: #D31141;
+}
+
+.rightside {
+	color: #f5f5f5;
 }
