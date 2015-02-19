@@ -342,8 +342,7 @@ Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 
 ul.forums {
-	background-color: #FEFCFF;
-	background-image: url("./images/gradient.png");
+	background-color: #ECF0F1;
 }
 
 ul.topiclist li {
@@ -377,7 +376,7 @@ li.row strong {
 }
 
 li.row:hover {
-	background-color: #F6F4D0;
+	background-color: #BDC3C7;
 }
 
 li.row:hover dd {
@@ -1072,7 +1071,6 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 	color: #BC2A4D;
 	transition: border .25s linear,color .25s linear,background-color .25s linear;
 	background-color:#cacfd2;
-	border-color:#cacfd2
 }
 
 /* Focus states */

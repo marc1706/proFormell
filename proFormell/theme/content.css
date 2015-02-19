@@ -9,6 +9,7 @@ ul.topiclist {
 
 ul.forums {
 	background: transparent none repeat-x 0 0;
+	transition: border .5s linear,color .5s linear,background-color .5s linear;
 }
 
 ul.topiclist li {
@@ -103,6 +104,10 @@ li.row {
 
 li.row strong {
 	font-weight: normal;
+}
+
+li.row:hover {
+	transition: border .5s linear,color .5s linear,background-color .5s linear;
 }
 
 li.header dt, li.header dd {
