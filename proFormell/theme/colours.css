@@ -34,8 +34,7 @@ hr {
 --------------------------------------------- */
 
 #search-box {
-	background: none no-repeat scroll 0 0 rgba(194, 194, 194, 0.7);
-	box-shadow: -2px 4px 3px 0 rgba(2, 2, 2, 0.7);
+	margin-right: 25%;
 }
 
 .search-box .inputbox,
@@ -43,10 +42,6 @@ hr {
 .search-box .inputbox:focus,
 .search-box .button:hover {
 	border-color: #C7C3BF;
-}
-
-.search-header {
-	box-shadow: 0 0 10px #0075B0;
 }
 
 #site-description h1 {
@@ -1158,6 +1153,7 @@ ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist 
 	background: #fff;
 	border-color: #b9b9b9;
 	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+	color: #000;
 }
 
 .dropdown-up .dropdown-contents {
@@ -1185,4 +1181,8 @@ li.notification-reported strong, li.notification-disapproved strong {
 
 .rightside {
 	color: #f5f5f5;
+}
+
+.fixed-nav-bar {
+	background-color: #34495E;
 }
