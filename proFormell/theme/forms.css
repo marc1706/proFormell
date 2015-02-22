@@ -404,7 +404,7 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 	margin-right: -5px;
 	border-bottom-left-radius: 10px;
 	border-top-right-radius: 5px;
-	padding: 15px 5px;
+	padding: 12px 5px;
 }
 
 .search-header .inputbox { border: 0; }
