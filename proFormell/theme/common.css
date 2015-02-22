@@ -1320,3 +1320,7 @@ ul.linklist:after,
 .fixed-nav-bar a {
 	font-weight: bold;
 }
+
+.fixed-nav-bar:empty {
+	display: none;
+}
