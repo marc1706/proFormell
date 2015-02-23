@@ -266,6 +266,10 @@ a:hover {
 	color: #3498DB;
 }
 
+.navbar a:hover {
+    color: #60aadb;
+}
+
 .dropdown a { color: #0d0d0d; }
 
 a { color: #0d0d0d; }
@@ -1041,6 +1045,8 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
 	color: #000;
 	background-color: #bdc3c7;
 	transition: border .25s linear,color .25s linear,background-color .25s linear;
+    -webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+    -moz-transition: border .25s linear,color .25s linear,background-color .25s linear;
 }
 
 a.button1, input.button1 {
@@ -1065,6 +1071,8 @@ a.button1, a.button2 {
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
 	color: #BC2A4D;
 	transition: border .25s linear,color .25s linear,background-color .25s linear;
+    -webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+    -moz-transition: border .25s linear,color .25s linear,background-color .25s linear;
 	background-color:#cacfd2;
 }
 
@@ -1146,7 +1154,7 @@ ul.linklist li.responsive-menu a.responsive-menu-link:before {
 }
 
 ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist li.responsive-menu.visible a.responsive-menu-link:before {
-	border-color: #D31141;
+	border-color: #60aadb;
 }
 
 .dropdown .dropdown-contents {
@@ -1187,6 +1195,10 @@ li.notification-reported strong, li.notification-disapproved strong {
 	background-color: rgba(121, 122, 120, 0.9);
 }
 
-.fixed-nav-bar a {
+ul#nav-top > li > a {
 	color: #f5f5f5;
+}
+
+ul#nav-top > li > a:hover {
+    color: #60aadb;
 }

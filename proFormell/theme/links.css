@@ -6,6 +6,9 @@ a {
 	direction: ltr;
 	unicode-bidi: embed;
 	text-decoration: none;
+	transition: .25s;
+	-webkit-transition: .25s;
+	-moz-transition: .25s;
 }
 
 a:hover	{ text-decoration: underline; }
