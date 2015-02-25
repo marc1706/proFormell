@@ -1261,6 +1261,10 @@ ul.linklist:after,
 	width: auto;
 }
 
+a.responsive-menu-link {
+	padding-left: 20px !important;
+}
+
 #quick-links a.responsive-menu-link:before {
 	font-size: 16px;
 	line-height: 16.5px;
