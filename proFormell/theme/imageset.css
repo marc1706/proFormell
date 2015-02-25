@@ -11,7 +11,7 @@ span.imageset {
 
 /* Global imageset items */
 .imageset.site_logo {
-	background-image: url("./images/site_logo.gif");
+	background-image: url("./images/site_logo.png");
 	padding-left: 149px;
 	padding-top: 52px;
 }
