@@ -44,13 +44,6 @@ hr {
 	border-color: #C7C3BF;
 }
 
-#site-description h1 {
-	background: -webkit-linear-gradient(#fff, #cdcdcd);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-
-}
-
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 #wrap {
@@ -59,8 +52,7 @@ hr {
 }
 
 .headerbar {
-	background-color: #414141;
-	background-image: url("./images/header_bg.png");
+	background-color: #444543;
 	color: #FFFFFF;
 }
 
