@@ -373,6 +373,10 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
 }
 
 .search-box button {

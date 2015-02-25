@@ -44,6 +44,14 @@ hr {
 	border-color: #C7C3BF;
 }
 
+input#keywords {
+	background: #c1c1c1;
+}
+
+input#keywords:focus {
+	background: #fff !important;
+}
+
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 #wrap {
