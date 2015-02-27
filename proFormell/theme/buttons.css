@@ -19,6 +19,11 @@
 	text-decoration: none !important;
 	outline-style: none !important;
 	vertical-align: bottom;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
 }
 
 .dropdown-select {
@@ -115,7 +120,7 @@
 
 .small-icon > a {
 	display: inline-block;
-	padding: 0 0 0 24px;
+	padding: 0 0 0 26px;
 }
 
 ul.linklist.bulletin > li.small-icon:before {
@@ -250,4 +255,12 @@ ul.linklist.bulletin > li.small-icon:before {
 button::-moz-focus-inner {
 	padding: 0;
 	border: 0
+}
+
+ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist li.responsive-menu.visible a.responsive-menu-link:before {
+	-webkit-transition: .25s;
+	-moz-transition: .25s;
+	-ms-transition: .25s;
+	-o-transition: .25s;
+	transition: .25s;
 }

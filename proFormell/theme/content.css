@@ -9,6 +9,9 @@ ul.topiclist {
 
 ul.forums {
 	background: transparent none repeat-x 0 0;
+	transition: border .5s linear,color .5s linear,background-color .5s linear;
+    -webkit-transition: border .5s linear,color .5s linear,background-color .5s linear;
+    -moz-transition: border .5s linear,color .5s linear,background-color .5s linear;
 }
 
 ul.topiclist li {
@@ -105,6 +108,12 @@ li.row strong {
 	font-weight: normal;
 }
 
+li.row:hover {
+	transition: border .5s linear,color .5s linear,background-color .5s linear;
+    -webkit-transition: border .5s linear,color .5s linear,background-color .5s linear;
+    -moz-transition: border .5s linear,color .5s linear,background-color .5s linear;
+}
+
 li.header dt, li.header dd {
 	line-height: 1em;
 	border-left-width: 0;
@@ -145,7 +154,7 @@ li.header dl.icon dt .list-inner {
 
 /* Forum list column styles */
 dl.icon {
-	background-position: 10px 50%;		/* Position of folder icon */
+	background-position: 6px 50%;		/* Position of folder icon */
 	background-repeat: no-repeat;
 }
 

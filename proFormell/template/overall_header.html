@@ -56,31 +56,48 @@
 
 <!-- EVENT overall_header_body_before -->
 
+
 <div id="wrap">
-	<a id="top" class="anchor" accesskey="t"></a>
-	<div id="page-header">
-		<div class="headerbar">
-			<div class="inner">
-
-			<div id="site-description">
-				<a id="logo" class="logo" href="<!-- IF U_SITE_HOME -->{U_SITE_HOME}<!-- ELSE -->{U_INDEX}<!-- ENDIF -->" title="<!-- IF U_SITE_HOME -->{L_SITE_HOME}<!-- ELSE -->{L_INDEX}<!-- ENDIF -->"><h1>{SITENAME}</h1></a>
-				<p>{SITE_DESCRIPTION}</p>
-				<p class="skiplink"><a href="#start_here">{L_SKIP}</a></p>
-			</div>
-
-			<!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
-			<div id="search-box" class="search-box search-header">
-				<form action="{U_SEARCH}" method="get" id="search">
+	<nav class="fixed-nav-bar">
+		<!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
+		<div id="search-box" class="search-box search-header">
+			<form action="{U_SEARCH}" method="get" id="search">
 				<fieldset>
 					<input name="keywords" id="keywords" type="search" maxlength="128" title="{L_SEARCH_KEYWORDS}" class="inputbox search tiny" size="20" value="{SEARCH_WORDS}" placeholder="{L_SEARCH_MINI}" />
 					<button class="button icon-button search-icon" type="submit" title="{L_SEARCH}">{L_SEARCH}</button>
 					<a href="{U_SEARCH}" class="button icon-button search-adv-icon" title="{L_SEARCH_ADV}">{L_SEARCH_ADV}</a>
 					{S_SEARCH_HIDDEN_FIELDS}
 				</fieldset>
-				</form>
-			</div>
+			</form>
+		</div>
+		<!-- ENDIF -->
+		<!-- IF S_REGISTERED_USER -->
+		<ul id="nav-top" class="linklist bulletin" role="menubar">
+			<!-- IF S_DISPLAY_PM -->
+			<li class="small-icon icon-pm rightside" data-skip-responsive="true">
+				<a href="{U_PRIVATEMSGS}" role="menuitem"><span>{L_PRIVATE_MESSAGES} [</span><strong>{PRIVATE_MESSAGE_COUNT}</strong><span>]</span></a>
+			</li>
 			<!-- ENDIF -->
+			<!-- IF S_NOTIFICATIONS_DISPLAY -->
+			<li class="small-icon icon-notification dropdown-container dropdown-{S_CONTENT_FLOW_END} rightside" data-skip-responsive="true">
+				<a href="{U_VIEW_ALL_NOTIFICATIONS}" id="notification_list_button" class="dropdown-trigger"><span>{L_NOTIFICATIONS} [</span><strong>{NOTIFICATIONS_COUNT}</strong><span>]</span></a>
+				<!-- INCLUDE notification_dropdown.html -->
+			</li>
+			<!-- ENDIF -->
+		</ul>
+		<!-- ENDIF -->
+	</nav>
+	<a id="top" class="anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar">
+			<div class="inner">
 
+			<div id="site-description">
+				<a id="logo" class="logo" href="<!-- IF U_SITE_HOME -->{U_SITE_HOME}<!-- ELSE -->{U_INDEX}<!-- ENDIF -->" title="<!-- IF U_SITE_HOME -->{L_SITE_HOME}<!-- ELSE -->{L_INDEX}<!-- ENDIF -->">{SITE_LOGO_IMG}</a>
+				<h1>{SITENAME}</h1>
+				<p>{SITE_DESCRIPTION}</p>
+				<p class="skiplink"><a href="#start_here">{L_SKIP}</a></p>
+			</div>
 			</div>
 		</div>
 

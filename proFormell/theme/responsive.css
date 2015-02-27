@@ -75,8 +75,8 @@ body {
 .responsive-search { display: block !important; }
 .responsive-search a {
 	display: block;
-	width: 16px;
-	height: 22px;
+	width: 24px;
+	height: 24px;
 	text-indent: 99px;
 	overflow: hidden;
 	background-position: 50% 50%;

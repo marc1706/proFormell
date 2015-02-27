@@ -214,8 +214,7 @@ fieldset.submit-buttons {
 
 fieldset.submit-buttons input {
 	vertical-align: middle;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding: 7px;
 }
 
 /* Posting page styles
@@ -305,15 +304,15 @@ input.button1, input.button2 {
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {
 	width: auto !important;
-	padding-top: 1px;
-	padding-bottom: 1px;
+	padding: 5px;
 	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
 	background: transparent none repeat-x top left;
 }
 
 a.button1, input.button1 {
 	font-weight: bold;
-	border: 1px solid transparent;
+	border: 0 solid transparent;
+	border-radius: 4px;
 }
 
 input.button3 {
@@ -331,7 +330,8 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="che
 
 /* Alternative button */
 a.button2, input.button2, input.button3 {
-	border: 1px solid transparent;
+	border: 0 solid transparent;
+	border-radius: 4px;
 }
 
 /* <a> button in the style of the form buttons */
@@ -345,8 +345,8 @@ a.button1, a.button1:link, a.button1:visited, a.button1:active, a.button2, a.but
 
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
-	border: 1px solid transparent;
-	background-position: 0 100%;
+	border: 0 solid;
+	border-radius: 4px;
 }
 
 input.disabled {
@@ -373,6 +373,10 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
 }
 
 .search-box button {
@@ -404,7 +408,7 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 	margin-right: -5px;
 	border-bottom-left-radius: 10px;
 	border-top-right-radius: 5px;
-	padding: 15px 5px;
+	padding: 12px 5px;
 }
 
 .search-header .inputbox { border: 0; }
