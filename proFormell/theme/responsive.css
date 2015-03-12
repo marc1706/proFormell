@@ -19,7 +19,7 @@ body {
 #wrap {
 	border: none;
 	border-radius: 0;
-	margin: 0;
+	margin: 40px 0 0;
 	min-width: 290px;
 	padding: 0 5px;
 }
@@ -571,4 +571,6 @@ fieldset.display-actions {
 		margin-top: 5px;
 		width: 100%;
 	}
+
+	ul#nav-top > li > a > span { display: none; }
 }
