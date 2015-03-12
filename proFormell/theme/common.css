@@ -1338,3 +1338,9 @@ a.responsive-menu-link {
     -webkit-transition:.25s;
     transition:.25s
 }
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+	.fixed-nav-bar > #search-box {
+		margin-right: 5%;
+	}
+}
