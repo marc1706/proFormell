@@ -185,7 +185,7 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 
 @media only screen and (max-width: 1220px), only screen and (max-device-width: 1220px) {
 	#wrap {
-		margin: 0 12px;
+		margin: 40px 12px 0;
 	}
 }
 
@@ -1337,4 +1337,10 @@ a.responsive-menu-link {
     -moz-transition:.25s;
     -webkit-transition:.25s;
     transition:.25s
+}
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+	.fixed-nav-bar > #search-box {
+		margin-right: 5%;
+	}
 }
