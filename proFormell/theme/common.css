@@ -1333,15 +1333,8 @@ a.responsive-menu-link {
 }
 
 #nav-top li > a {
-	text-decoration: none;
-	-moz-transition:.25s;
-	-webkit-transition:.25s;
-	transition:.25s
-}
-
-.post_anchor {
-	display: block;
-	visibility: hidden;
-	position: relative;
-	top: -40px;
+    text-decoration: none;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s
 }
