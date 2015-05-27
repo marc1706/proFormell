@@ -1331,10 +1331,17 @@ a.responsive-menu-link {
 }
 
 #nav-top li > a {
-    text-decoration: none;
-    -moz-transition:.25s;
-    -webkit-transition:.25s;
-    transition:.25s
+	text-decoration: none;
+	-moz-transition:.25s;
+	-webkit-transition:.25s;
+	transition:.25s
+}
+
+.post_anchor {
+	display: block;
+	visibility: hidden;
+	position: relative;
+	top: -40px;
 }
 
 @media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
