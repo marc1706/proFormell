@@ -689,7 +689,7 @@ Colours and backgrounds for buttons.css
 .icon-profile				{ background-image: url("./images/icon_profile.png"); }
 .icon-register				{ background-image: url("./images/icon_register.png"); }
 .icon-search, .responsive-search a	{ background-image: url("./images/icon_search.png"); }
-.icon-search-active			{ background-image: url("./images/subforum_read.gif"); }
+.icon-search-active			{ background-image: url("./images/subforum_read.png"); }
 .icon-search-advanced		{ background-image: url("./images/icon_search.png"); }
 .icon-search-new			{ background-image: url("./images/subforum_unread.gif"); }
 .icon-search-self			{ background-image: url("./images/icon_topic_latest.gif"); }
