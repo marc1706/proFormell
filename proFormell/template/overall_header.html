@@ -2,7 +2,8 @@
 <html dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 {META}
 <title><!-- IF UNREAD_NOTIFICATIONS_COUNT -->({UNREAD_NOTIFICATIONS_COUNT}) <!-- ENDIF --><!-- IF not S_VIEWTOPIC and not S_VIEWFORUM -->{SITENAME} - <!-- ENDIF --><!-- IF S_IN_MCP -->{L_MCP} - <!-- ELSEIF S_IN_UCP -->{L_UCP} - <!-- ENDIF -->{PAGE_TITLE}<!-- IF S_VIEWTOPIC or S_VIEWFORUM --> - {SITENAME}<!-- ENDIF --></title>
 
@@ -71,10 +72,9 @@
 
 <!-- EVENT overall_header_body_before -->
 
-
 <div id="wrap">
 	<nav class="fixed-nav-bar">
-			<!-- EVENT overall_header_searchbox_before -->
+		<!-- EVENT overall_header_searchbox_before -->
 		<!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
 		<div id="search-box" class="search-box search-header" role="search">
 			<form action="{U_SEARCH}" method="get" id="search">
@@ -106,6 +106,7 @@
 	<a id="top" class="anchor" accesskey="t"></a>
 	<div id="page-header">
 		<div class="headerbar" role="banner">
+		<!-- EVENT overall_header_headerbar_before -->
 			<div class="inner">
 
 			<div id="site-description">
@@ -115,8 +116,8 @@
 				<p class="skiplink"><a href="#start_here">{L_SKIP}</a></p>
 			</div>
 			</div>
+			<!-- EVENT overall_header_headerbar_after -->
 		</div>
-
 		<!-- EVENT overall_header_navbar_before -->
 		<!-- INCLUDE navbar_header.html -->
 	</div>
