@@ -1212,3 +1212,8 @@ ul#nav-top > li > a {
 ul#nav-top > li > a:hover {
     color: #60aadb;
 }
+
+.badge {
+	background-color: #D31141;
+	color: #ffffff;
+}
