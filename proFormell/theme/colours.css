@@ -109,7 +109,9 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 	background-color: #e6e6e6;
 }
 
-.bg3	{ background-color: #e3e3e3; }
+.bg3	{
+	background-color: #e3e3e3;
+}
 
 .ucprowbg {
 	background-color: #e3e3e3;
@@ -177,9 +179,9 @@ dl.details dd {
 ---------------------------------------- */
 
 .pagination li a {
-	color: #5C758C;
 	background-color: #ECEDEE;
 	border-color: #B4BAC0;
+	color: #5C758C;
 }
 
 .pagination li.ellipsis span {
@@ -188,14 +190,14 @@ dl.details dd {
 }
 
 .pagination li.active span {
-	color: #FFFFFF;
 	background-color: #4692BF;
 	border-color: #4692BF;
+	color: #FFFFFF;
 }
 
 .pagination li a:hover, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	border-color: #368AD2;
 	background-color: #368AD2;
+	border-color: #368AD2;
 	color: #FFFFFF;
 }
 
@@ -294,13 +296,13 @@ a { color: #0d0d0d; }
 
 /* Post body links */
 .postlink {
-	color: #368AD2;
 	border-bottom-color: #368AD2;
+	color: #368AD2;
 }
 
 .postlink:visited {
-	color: #5D8FBD;
 	border-bottom-color: #5D8FBD;
+	color: #5D8FBD;
 }
 
 .postlink:hover {
@@ -687,12 +689,12 @@ Colours and backgrounds for buttons.css
 .icon-profile				{ background-image: url("./images/icon_profile.png"); }
 .icon-register				{ background-image: url("./images/icon_register.png"); }
 .icon-search, .responsive-search a	{ background-image: url("./images/icon_search.png"); }
-.icon-search-active			{ background-image: url("./images/subforum_read.gif"); }
+.icon-search-active			{ background-image: url("./images/search_active.png"); }
 .icon-search-advanced		{ background-image: url("./images/icon_search.png"); }
-.icon-search-new			{ background-image: url("./images/subforum_unread.gif"); }
-.icon-search-self			{ background-image: url("./images/icon_topic_latest.gif"); }
-.icon-search-unanswered		{ background-image: url("./images/icon_post_target.gif"); }
-.icon-search-unread			{ background-image: url("./images/subforum_unread.gif"); }
+.icon-search-new			{ background-image: url("./images/subforum_unread.png"); }
+.icon-search-self			{ background-image: url("./images/icon_topic_latest.png"); }
+.icon-search-unanswered		{ background-image: url("./images/icon_post_target.png"); }
+.icon-search-unread			{ background-image: url("./images/subforum_unread.png"); }
 .icon-sendemail				{ background-image: url("./images/icon_email.png"); }
 .icon-subscribe				{ background-image: url("./images/icon_subscribe.png"); }
 .icon-team					{ background-image: url("./images/icon_team.png"); }
@@ -1006,6 +1008,14 @@ fieldset.quick-login input.inputbox {
 
 #message-box textarea {
 	color: #333333;
+}
+
+#message-box textarea.drag-n-drop {
+	outline-color: rgba(102, 102, 102, 0.5);
+}
+
+#message-box textarea.drag-n-drop-highlight {
+	outline-color: rgba(17, 163, 234, 0.5);
 }
 
 /* Input field styles
