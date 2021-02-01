@@ -14,6 +14,6 @@ https://www.phpbb.com/styles/installing/#a-installing
 
 ###Some additional information
 
-Icons made with Google's design spec for material design: https://www.google.com/design/spec/material-design/introduction.html
+Icons made with Google's design specific for material design: https://www.google.com/design/spec/material-design/introduction.html
 
 Small icons partially from: https://github.com/paomedia/small-n-flat
